@@ -27,7 +27,7 @@ margin: 0px;
       position: absolute;
       top:3000px;
       left: 182px;
-    right:792px;
+    right:600px;
   }
 
    .login-sign{
@@ -223,7 +223,7 @@ right: 230px;
 .highlight-info{
   display: flex;
         position: absolute;
-                    top:330px;
+                    top:750px;
             width: 168px;
             height: 44px;
             border-radius: 10px;
@@ -262,7 +262,7 @@ right: 230px;
   width: 485px;
   height: 213px;
   left: 10px;
-  top: 400px;
+  top: 700px;
   right: 785px;
 }
 #read-more{ 
@@ -272,9 +272,23 @@ right: 230px;
   background-color:#E02C6D ;
   border-radius: 10px;
 }
-#E02C6D ,a{
+#read-more ,a{
   color: #FFFFFF;
   text-decoration: none;
+}
+.section-video{
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  top:700px;
+  padding-left: 100px;
+}
+.video{
+  position: relative;
+  top: -120px;
+  left: 400px;
+  color:gray;
+
 }
 /* style footer start here  */
 .logo{display: flex;
@@ -285,7 +299,7 @@ right: 230px;
   width: 485px;
   height: 213px;
   left: 475px;
-  top: 3580px;
+  top: 3900px;
   right: 485px;
   bottom: 65px;
 }
@@ -298,7 +312,7 @@ right: 230px;
   width: 485px;
   height: 213px;
   left: 475px;
-  top: 3750px;
+  top: 4060px;
   right: 485px;
   bottom: 65px;
 }
@@ -312,7 +326,7 @@ right: 230px;
   width: 485px;
   height: 213px;
   left: 550px;
-  top: 3850px;
+  top: 4130px;
   right: 485px;
   bottom: 65px;
 }
