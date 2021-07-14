@@ -345,15 +345,15 @@ right: 230px;
 
 
 @media only screen and (max-width:688px) {
-  .container{
+  .containar-main {
       width: 100%;
   }
-  .carnival ,.top-players,.container{
+  .header , .blog , .container,.video-vision,
+  .footer {
      
       grid-template-columns: repeat(1,1fr);
   }
-  
-   {
+  .carnival, .top-players, .highlight,.vision,.foot-end {
       flex-direction: column;
       justify-content: center;
   }
