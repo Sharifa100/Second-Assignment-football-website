@@ -344,4 +344,18 @@ right: 230px;
 }  
 
 
+@media only screen and (max-width:688px) {
+  .container{
+      width: 100%;
+  }
+  .carnival ,.top-players,.container{
+     
+      grid-template-columns: repeat(1,1fr);
+  }
   
+   {
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+}
